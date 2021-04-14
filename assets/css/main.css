@@ -266,62 +266,26 @@ margin-top: 1%;
   text-align: left;
   text-transform: uppercase;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* customer styles */
-
-.for-customers__row{
-  display: flex;
+.management-section__list-item span{
+  color: #096EF3;
 }
-.for-customers__svg{
-  width: 45%;
+
+
+.Benefits{
+  margin-bottom: 15%;
 }
-.for-customers__explanation{
-  width: 55%;
-}
-.for-customers__container{
-  margin: 10%;
-}
-.for-customers{
-  margin-bottom: 10%;
-}
-.management-section__list{
-  display: flex;
-  justify-content: space-between;
-}
-.management-section__list-item{
-  width: 29%;
-}
-.management-section-section{
-  margin: 10% 0 10% 0;
-}
-.Benefits__wrapper{
-  display: flex;
-}
-.benefits__svg-container{
-  width: 50%;
-}
-.Benefits__wrapper-text{
-  width: 40%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
