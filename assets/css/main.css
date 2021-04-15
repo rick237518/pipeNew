@@ -501,11 +501,18 @@ margin: 0 0 0 2%;
 
 
 @media screen and (max-width: 1199px) and (min-width: 768px) {
+  .what-we-do__text{
+    font-size: 16px;
+  }
 .what-we-do__svg-container svg {
     width: 618px;
     height: 400px;
 }
-
+.our-cost__item p {
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 0.48px;
+}
 
 .nav__wrapper-list li a {
     text-decoration: none;
@@ -537,12 +544,27 @@ margin: 0 0 0 2%;
 .nav__wrapper-list-item a {
   font-size: 13px;
 }
+.you-plus-your-things__item-text {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    padding-right: 25%;
+}
+.you-plus-your-things__item-number{
+  padding-top: 9%;
+}
+.plus-your-things__item-title {
+    font-size: 20px;
+    line-height: 37px;
+    letter-spacing: 0.5px;
+    padding-bottom: 1%;
+}
 p {
     color: white;
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'PT Sans', sans-serif;
     letter-spacing: 0.55px;
-    line-height: 32px;
+    line-height: 24px;
     align-items: left;
 }
 .how-it-works__video, .video-section__iframe {
