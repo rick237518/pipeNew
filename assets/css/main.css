@@ -501,9 +501,9 @@ margin: 0 0 0 2%;
 
 
 @media screen and (max-width: 1199px) and (min-width: 768px) {
-.what-we-do__svg-container svg{
-  width: 700px;
-  height: 400px;
+.what-we-do__svg-container svg {
+    width: 618px;
+    height: 400px;
 }
 
 
