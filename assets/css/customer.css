@@ -116,7 +116,9 @@
 .desktop-display{
     display: block;
 }
-
+.Benefits__wrapper-text-content span{
+    color: blue;
+}
 
 
 
@@ -180,6 +182,24 @@
 }
 .for-customers__explanation{
     padding-top: 15%;
+}
+.benefits__svg-container {
+    margin-left: -7%;
+    margin-top: -17%;
+}
+.outline-btn__container {
+    padding: 20% 25%;
+
+}
+
+.for-customers__container {
+    margin: 24% 0 15% 0;
+}
+.for-customers__svg svg{
+    width: 326px;
+}
+.for-customers__svg{
+    padding-bottom: 10%;
 }
 .for-customers__text-bold {
     font-size: 18px;

@@ -187,15 +187,63 @@ padding-left: 8%;
 
 @media screen and (max-width: 768px) {
     .for-developers__svg {
-    width: 40%;
+    width: 68%;
     display: flex;
     padding: 7% 0 0 5%;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tl-dr__list-item p {
+    font-size: 15px;
+    line-height: 30px;
+}
+.tl-dr__list-item {
+    padding: 15% 0 0 0;
+}
+.your-web-developer {
+    margin: 42% 0 15% 0;
+    position: relative;
+}
+.a-black-box {
+    margin-top: 56%;
+
+}
+.webrtc-agent{
+    margin-top: 40%;
+}
+.your-hardware-bottom-list-item p {
+    font-size: 16px;
+}
+.tl-dr-section {
+    margin-top: 30%;
+}
+.your-web-developer-list-container p{
+    font-size: 11px;
+    line-height: 32px;
+
+}
+.your-web-developer-wrapper__svg,.your-web-developer-wrapper__svg-absolute{
+    margin-left: -7%;
+}
+.webrtc-agent__list p{
+    font-size: 14px;
+    line-height: 32px;
+}
+.your-hardware__container {
+    padding: 30% 0 5% 0%;
 }
  .for-developers__container {
     display: flex;
     padding: 0 0 0 0;
     flex-direction: column;
+}
+.for-developers__image-first img{
+    width: 270px;
+}
+.for-developers__svg-second svg{
+width: 100%;
+
 }
 .your-hardware__list{
     display: flex;
@@ -230,7 +278,7 @@ width: 400px;
     position: absolute;
     top: 15%;
     left: 23%;
-    font-size: 20px;
+    font-size: 12px;
     letter-spacing: 1.04px;
     line-height: 67px;
 }
@@ -241,8 +289,8 @@ width: 400px;
 .tl-dr__svg svg{
     width: 100%;
 }
-.tl-dr-section__container .tl-dr__list-container{
-    width: 52%;
+.tl-dr-section__container .tl-dr__list-container {
+    width: 72%;
     margin: 0 auto;
     text-align: center;
 }
@@ -267,9 +315,9 @@ width: 400px;
     margin-bottom: 15%;
 }
 .for-developers__list-container-heading {
-    font-size: 24px;
+    font-size: 17px;
     letter-spacing: 1.44px;
-    line-height: 81px;
+    line-height: 57px;
     color: #0A39D5;
     padding-left: 0;
     text-align: center;
@@ -278,13 +326,15 @@ width: 400px;
     position: absolute;
     bottom: -4%;
     right: 19%;
-    font-size: 20px;
+    font-size: 12px;
     letter-spacing: 1.04px;
     line-height: 67px;
 }
-.ptz-cam__svg {
-    padding: 20% 0 10% 0;
+.ptz-cam-section .ptz-cam__svg{
+    padding-top: 45%;
+    padding-bottom: 14%;
 }
+
 .your-web-developer-wrapper__svg-absolute {
     position: relative;
     bottom: 0;
