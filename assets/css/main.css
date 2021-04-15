@@ -156,6 +156,9 @@ p{
     padding: 13% 0 10% 25%;
    
 }
+ .our-costs-svg{
+    display: none;
+  }
 .secure-yet-simple__item-svg{
   padding-right: 10%;
 }
@@ -348,6 +351,9 @@ margin-top: 1%;
 
 
 @media screen and (max-width:768px){
+  .our-costs-svg{
+    display: block;
+  }
  
 .what-we-do__text {
     margin-left: 0%;
