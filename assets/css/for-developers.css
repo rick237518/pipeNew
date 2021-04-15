@@ -251,6 +251,12 @@ width: 400px;
     align-items: center;
     padding: 5% 0 5% 0;
 }
+.for-developers__list-item p {
+    font-size: 14px;
+}
+.your-hardware__list-item{
+    margin-bottom: 20%;
+}
 .your-hardware{
     margin-top: 30%;
 }
