@@ -4,6 +4,9 @@
 .for-customers__row{
   display: flex;
 }
+.for-customers,.enabled-device{
+    position: relative;
+}
 .for-customers__svg{
   width: 45%;
 }
@@ -83,6 +86,9 @@
     letter-spacing: 0.57px;
 }
 
+.desktop-display{
+    display: block;
+}
 .outline-btn {
         padding: 0.5rem 1.7rem;
         border: 1px solid var(--main-button-color);
@@ -90,6 +96,7 @@
           letter-spacing: 0.60px;
     line-height: 20px;
     text-decoration: none;
+    color: white;
     }
 
     .outline-btn__container{
@@ -114,7 +121,7 @@
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
  
 .section-title {
     font-size: 40px;
@@ -206,8 +213,18 @@
 }
 .management-section__list-item p{
     font-size: 17px;
+    margin-top: 15%;
+}
+.section__number{
+  display: none;
 }
 .management-section__list-item{
     margin-bottom: 15%;
+}
+.benefits__svg {
+    width: 400px;
+}
+.desktop-display{
+    display: none;
 }
 }
