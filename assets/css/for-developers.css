@@ -380,6 +380,9 @@ left: 0;
 .ptz-cam-section {
     margin: 31% 0 15% 0;
 }
+.webrtc-agent{
+  margin-top: 30%;
+}
 .tl-dr__svg svg{
   width: 437px;
 
