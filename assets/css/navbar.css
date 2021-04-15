@@ -28,7 +28,10 @@ padding: 24px;
 .nav__wrapper{
     margin-bottom: 6%;
 }
-
+.activeMenu{
+    border-top: 1px solid #096EF3;
+    padding-top: 5px;
+}
 .desktop-logo{
     display: none;
 }
