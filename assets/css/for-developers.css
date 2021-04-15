@@ -76,8 +76,8 @@ padding-left: 8%;
 }
 .your-web-developer-wrapper__svg-absolute {
     position: absolute;
-    bottom: 29%;
-    right: -38%;
+    bottom: 27%;
+    right: -35%;
 }
 
 .your-hardware__container .your-hardware__list-item-text{
@@ -178,9 +178,20 @@ padding-left: 8%;
 .tl-dr__text{
   padding-top: 7%;
 }
-
+.your-web-developer-wrapper__list li{
+    list-style: disc;
+}
+.your-web-developer-wrapper__list span{
+    color: blue;
+}
 
 @media screen and (max-width: 768px) {
+    .for-developers__svg {
+    width: 40%;
+    display: flex;
+    padding: 7% 0 0 5%;
+    flex-direction: column;
+}
  .for-developers__container {
     display: flex;
     padding: 0 0 0 0;

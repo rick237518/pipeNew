@@ -314,27 +314,81 @@ margin-top: 1%;
 
 
 @media screen and (max-width:768px){
- .what-we-do__text {
+ 
+.what-we-do__text {
     margin-left: 0%;
     padding-right: 0%;
-    margin-top: 20%;
+    padding-top: 40%;
+}
+.secure-yet-simple {
+    margin-top: 50%;
+    margin-bottom: 36%;
 }
 .what-we-do__text p {
     font-size: 16px;
 }
+.how-it-works{
+  margin-top: 40%;
+}
 
 
-.buttons-wrapper {
+ .buttons-wrapper {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    width: 40%;
+    width: 100%;
 }
 .our-cost{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.section-six__button-large {
+    border: 2px solid var(--main-button-color);
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 2.5rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.responsive-iframe {
+    margin-left: 1%;
+    width: 92%;
+    height: 33%;
+    border: none;
+}
+.plus-your-things__item-title {
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    padding-bottom: 1%;
+    text-align: left;
+   
+}
+.section-six__button-small {
+  padding: 3%;
+    border: 2px solid var(--main-button-color);
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 2.5rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36%;
+    /* justify-content: space-around; */
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.thumbs-up__svg{
+  padding-bottom: 10%;
 }
 .our-cost p{
   font-size: 15px;
@@ -385,7 +439,7 @@ margin: 0 0 0 2%;
     line-height: 29px;
 }
 .you-plus-your-things .you-plus-your-things__list-wrapper {
-    padding: 8% 0 5% 0%;
+    padding: 31% 0 5% 0%;
 }
 .you-plus-your-things__item{
   justify-content: center;
@@ -394,8 +448,30 @@ margin: 0 0 0 2%;
   flex-direction: column;
 }
 .you-plus-your-things__item-text {
-  
     padding-right: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+.secure-yet-simple__item p{
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0.35px;
+    line-height: 25px;
+    text-align: center;
+}
+.video-section {
+    margin-top: 35%;
+    margin-bottom: 50%;
+}
+.secure-yet-simple__item-svg{
+  padding: 15% 0 10% 0 ;
+}
+.secure-yet-simple__container {
+    width: 59%;
+    margin: 0 auto;
 }
 .mobile-none{
   display: block;
