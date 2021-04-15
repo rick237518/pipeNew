@@ -26,7 +26,24 @@ padding: 24px;
     display: none;
 }
 
+.desktop-logo{
+    display: none;
+}
+.desktop__menu-absolute{
+    position: absolute;
+    top: 0%;
+}
+.mobile-menu-float{
+    display: none;
+}
 @media screen and (max-width:768px){
+    .desktop-logo{
+        display: block;
+    }
+    .mobile-menu-float{
+        display: flex;
+        justify-content: space-between;
+    }
     .mobile-logo{
       display: block;
     }
@@ -38,7 +55,7 @@ padding: 24px;
     height: 100vh;
     overflow-y: no-scroll !important;
     background-color: red;
-    transform: translateX(0%);
+    transform: translateX(100%);
     position: fixed;
     z-index: 10;
     width: 100%;
