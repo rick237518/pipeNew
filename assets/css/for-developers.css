@@ -350,3 +350,129 @@ left: 0;
     
 }
 
+@media screen and (max-width: 1400px) and  (min-width: 1200px) {
+  
+
+.your-web-developer-wrapper__svg-absolute{
+  display: none;
+}
+.your-web-developer-wrapper__list, .your-web-developer-wrapper__list-bullet {
+    font-size: 15px;
+    letter-spacing: 0.55px;
+    line-height: 32px;
+}
+.your-web-developer-wrapper__svg-absolute {
+    position: absolute;
+    bottom: 27%;
+    right: -29%;
+}
+.a-black-box-svg__bottom-left{
+  font-size: 17px;
+}
+.ptz-cam-section-right {
+    position: absolute;
+    bottom: 39%;
+    right: 13%;
+    font-size: 20px;
+    letter-spacing: 1.04px;
+    line-height: 67px;
+}
+.ptz-cam-section {
+    margin: 31% 0 15% 0;
+}
+.tl-dr__svg svg{
+  width: 437px;
+
+}
+.tl-dr__text {
+    padding-top: 9%;
+    padding-left: 5%;
+}
+.a-black-box-svg__bottom-right {
+    position: absolute;
+    bottom: 10%;
+    /* right: 10%; */
+    font-size: 17px;
+    left: 4%;
+}
+.a-black-box-svg__bottom-right{
+  position: absolute;
+  bottom: 10%;
+}
+.for-developers__container {
+    display: flex;
+    padding: 8% 0 21% 0;
+}
+.ptz-cam__svg {
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+.your-web-developer {
+    margin: 32% 0 15% 0;
+    position: relative;
+}
+.a-black-box {
+    margin-top: 23%;
+    position: relative;
+}
+.your-hardware-bottom-list {
+    margin: 20% 0 18% 0;
+}
+.your-hardware__container {
+    padding: 10% 0 17% 0%;
+}
+.for-developers__list-item p {
+    line-height: 49px;
+    font-size: 19px;
+    letter-spacing: 0.55px;
+}
+.a-black-box-svg__bottom-left {
+    position: absolute;
+    bottom: 11%;
+    right: 8%;
+}
+.tl-dr__list-item p {
+    line-height: 23px;
+    letter-spacing: 0.57px;
+    line-height: 40px;
+    font-size: 17px;
+}
+.ptz-cam-section-left {
+    position: absolute;
+    top: 37%;
+    left: 3%;
+    font-size: 20px;
+    letter-spacing: 1.04px;
+    line-height: 67px;
+}
+.webrtc-agent__list {
+    position: absolute;
+    top: 39%;
+    left: 41%;
+}
+.a-black-box-svg svg{
+  width: 1000px;
+}
+.webrtc-agent__list-outer, .webrtc-agent__list-inner {
+    font-size: 19px;
+    line-height: 37px;
+    letter-spacing: 0.55px;
+}
+.your-web-developer-list-container{
+  padding-top: 3%;
+}
+.your-web-developer-wrapper__svg svg{
+  width: 628px;
+}
+.for-developers__image-first img{
+  margin-top:18%;
+}
+.for-developers__text{
+  padding-left: 15%;
+}
+.for-developers__svg {
+    width: 31%;
+    display: flex;
+    padding: 13% 0 0 5%;
+}
+}

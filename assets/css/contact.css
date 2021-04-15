@@ -1,0 +1,137 @@
+.contact-us__container {
+            margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contact-us__list-item{
+    padding-left: 5%;
+}
+.contact-wrapper{
+    padding-left: 5% !important;
+}
+.contact-us__list-text {
+    margin-left: 4%;
+    display: inline;
+}
+.contact-us__list{
+    display: flex;
+}
+.contact-wrapper{
+    padding: 10% 0 10% 0;
+}
+.contact-text-mobile-hidden{
+    display: none;
+}
+.desktop-hidder{
+    display: none;
+}
+.contact-us{
+    width: 50%;
+}
+.contact-us-image{
+    width: 30%;
+    padding-top: 5%;
+}
+.contact-us-image {
+    width: 48%;
+    padding-top: 6%;
+    padding-left: 10%;
+}
+.simon-padding{
+    padding-left: 3%;
+    text-align: left;
+}
+.contact-us-padding-less {
+    padding-left: 14.5%;
+    text-align: left;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+.contact-us-padding{
+    padding-left: 15%;
+}
+.tim-padding{
+  padding-left: 8%;
+    text-align: left;
+}
+.we-believe__text{
+    font-size: 22px;
+    letter-spacing: 0.22px;
+    line-height: 38px;
+}
+.we-believe__Tim,.we-believe__simon{
+    display: flex;
+    text-align: left;
+    padding-bottom: 10%;
+    font-size: 22px;
+    letter-spacing: 0.22px;
+    line-height: 38px;
+}
+.we-believe__Tim p,.we-believe__simon p{
+    font-size: 22px;
+    letter-spacing: 0.22px;
+    line-height: 38px;
+}
+ /* privacy page*/
+    
+    .our-privacy__title {
+        margin: 3rem 0;
+        font-size: 2.1rem;
+    }
+
+    .our-privacy p {
+        font-size: 16px;
+        letter-spacing: 0.16px;
+        line-height: 24px;
+    }
+.our-privacy__wrapper{
+    padding-right: 33%;
+}
+    .our-privacy {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+     /*privacy page -end*/
+@media screen and (max-width:768px){
+
+    .our-privacy__wrapper{
+    padding-right: 3%;
+}
+.our-privacy__wrapper p{
+    font-size: 15px;
+    line-height: 24px;
+}
+
+   .mobile-hidden{
+       display: none;
+   } 
+   .contact-us__container{
+       display: flex;
+       flex-direction: column;
+   }
+   .desktop-hidder{
+       display: block;
+       padding-top: 18%;
+   }
+   .contact-us-image {
+    width: 100%;
+    padding-top: 20%;
+    padding-left: 0%;
+}
+.contact-wrapper {
+    padding-left: 0% !important;
+}
+.we-believe__text,.desktop-hidder p{
+    font-size: 17.5px;
+    letter-spacing: 0.26px;
+    line-height: 35px;
+}
+.we-believe__Tim {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15%;
+}
+}

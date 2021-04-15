@@ -1,0 +1,153 @@
+.our__team{
+    display: flex;
+}
+.we-believe-blog-container{
+    display: flex;
+
+    padding-top: 15%;
+}
+.we-belive-paragraph{
+    padding-left: 10%;
+
+}
+.text__container-tim{
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.desktop-only{
+    display: block;
+}
+.about-us__svg{
+    position: relative;
+}
+.our__image-relative,.text__container-about{
+    position: relative;
+}
+.our__team-container{
+    padding-top: 10%;
+}
+.tim-large {
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 1.5px;
+}
+.text__container-simon {
+    padding-left: 5%;
+    padding-right: 8%;
+}
+.we-belive-paragraph p {
+    font-size: 31px;
+    letter-spacing: 0.93px;
+    line-height: 57px;
+}
+.names{
+    display: none;
+}
+.text__container-members {
+    margin-top: -6%;
+    display: flex;
+    position: relative;
+}
+.desktop-only{
+    padding-bottom: 20%;
+}
+    
+
+    .about-us__svg-mobile{
+        display: none;
+    }
+
+
+    @media screen and (max-width:768px){
+        .about-us__svg-container{
+            display: flex;
+            justify-content: center;
+        }
+        .our__team,.we-believe-blog-container{
+            display: flex;
+            flex-direction: column;
+        }
+        .about-us__svg-mobile{
+        display: block;
+    }
+        .about-us__svg-desktop{
+            display: none;
+        }
+        .we-belive___heading{
+            text-align: center;
+            padding-bottom: 15%;
+        }
+        .show-tim-Simon-task{
+            font-size: 12px;
+        }
+        .names{
+    display: flex;
+    padding-top: 10%;
+    justify-content: space-around;
+    
+}
+.show-tim-btn__Simon-task{
+    font-size: 12px;
+}
+.show-tim-btn__Tim,.show-tim-btn__Simon{
+font-size: 16px
+}
+
+.text__container-members{
+    margin-top: 23%;
+}
+.desktop-only{
+    display: none;
+}
+
+.text__container-tim-inner,.text__container-simon p{
+    font-size: 16px;
+    letter-spacing: 0.81px;
+}
+.we-belive-paragraph p{
+    font-size: 22px;
+    line-height: 44px;
+    letter-spacing: 0.18px;
+}
+.we-belive___heading h4{
+font-size: 40px;
+}
+
+
+/* js function */
+.text__container-simon{
+    display: none;
+}
+.show-tim-btn__Tim{
+    border-bottom: 1px solid white
+}
+
+    }
+
+
+
+
+   @media screen and (max-width: 1400px) and (min-width: 1200px) {
+
+   .text__container-members{
+       font-size: 18px;
+   }
+   .text__container-simon {
+    padding-left: 0%;
+    padding-right: 3%;
+}
+.about-us__svg-container svg{
+    width: 1000px;
+}
+.we-belive-paragraph p {
+    font-size: 20px;
+    letter-spacing: 0.93px;
+    line-height: 49px;
+}
+.website-container-inner {
+    width: 88%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+   }

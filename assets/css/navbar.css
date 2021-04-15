@@ -1,0 +1,33 @@
+.nav__wrapper-list li a{
+    text-decoration: none;
+    font-size: 19px;
+    letter-spacing: 0.76px;
+    line-height: 24px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: Bold;
+}
+.nav__wrapper{
+    display:flex ;
+    justify-content: space-between;
+}
+.nav__wrapper-list-item{
+padding: 24px;
+}
+.nav__wrapper-list li {
+    display: inline-block;
+    padding: 29px;
+}
+.mobile-logo{
+      display: none;
+    }
+.mobile-menu__icon{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    .mobile-logo{
+      display: block;
+    }
+}
