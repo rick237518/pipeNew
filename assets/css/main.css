@@ -505,6 +505,34 @@ margin: 0 0 0 2%;
   width: 700px;
   height: 400px;
 }
+.nav__wrapper-list li a {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.76px;
+    line-height: 24px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: Bold;
+}
+.mini-title {
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    letter-spacing: 1.32px;
+    color: white;
+}
+.nav__wrapper-list-item a {
+  font-size: 13px;
+}
+p {
+    color: white;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.55px;
+    line-height: 32px;
+    align-items: left;
+}
 .how-it-works__video, .video-section__iframe {
     padding: 15% 0 10% 0;
 }

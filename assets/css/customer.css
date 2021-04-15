@@ -251,17 +251,6 @@
 
 
 @media screen and (max-width: 1199px) and (min-width: 768px) {
-.for-developers__container {
-    display: flex;
-    padding: 8% 0 0 0;
-    flex-direction: column;
-}
-.webrtc-agent__list-outer, .webrtc-agent__list-inner {
-    font-size: 13px;
-    line-height: 37px;
-    letter-spacing: 0.55px;
-}
-
 
 }
 
