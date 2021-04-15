@@ -505,6 +505,18 @@ margin: 0 0 0 2%;
   width: 700px;
   height: 400px;
 }
+
+
+.nav__wrapper-list li a {
+    text-decoration: none;
+    font-size: 9px !important;
+    letter-spacing: 0.76px;
+    line-height: 24px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: Bold;
+}
 .nav__wrapper-list li a {
     text-decoration: none;
     font-size: 14px;
