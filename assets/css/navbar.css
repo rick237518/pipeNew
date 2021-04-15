@@ -49,6 +49,9 @@ padding: 24px;
     top: 2%;
   
 }
+.mobile-icon__container{
+    margin-left: 3%;
+}
 .nav-wrapper-icon {
     position: absolute;
     top: 25%;
@@ -73,6 +76,11 @@ padding: 24px;
     overflow-y: no-scroll !important;
     background-color:black;
     transform: translateX(100%);
+     -webkit-transform:translate(100%);
+    
+    -moz-transform: rotate(100%);
+     -ms-transform: rotate(100%);
+     -o-transform: rotate(100%);
     position: fixed;
     z-index: 10;
     width: 100%;
@@ -82,6 +90,9 @@ padding: 24px;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
      -o-transition:0.5s;
+}
+.openMenubtn {
+    margin: 3% 7% 0 0;
 }
 .slidein{
     transform: translateX(0%);

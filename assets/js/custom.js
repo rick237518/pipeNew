@@ -13,3 +13,30 @@ closeMenuBtn.addEventListener("click", function () {
     document.body.classList.remove("lock-scroll")
 });
 console.log("working");
+
+
+
+var tag = document.createElement('script');
+tag.src = "//www.youtube.com/player_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+function onYouTubeIframeAPIReady() {
+    $('.youtube-video').inViewAutoplay({
+        autohide: 1,
+        modestbranding: 1,
+        rel: 0,
+        quality: 'hd720',
+        controls: 0,
+        showinfo: 0
+    });
+    $('.youtube-video-second').inViewAutoplay({
+        autohide: 1,
+        modestbranding: 1,
+        rel: 0,
+        quality: 'hd720',
+        controls: 0,
+        showinfo: 0
+    });
+
+}
