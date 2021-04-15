@@ -25,6 +25,9 @@ padding: 24px;
 .mobile-menu__icon{
     display: none;
 }
+.nav__wrapper{
+    margin-bottom: 6%;
+}
 
 .desktop-logo{
     display: none;
@@ -40,6 +43,20 @@ padding: 24px;
     .desktop-logo{
         display: block;
     }
+    .closebtn {
+    position: absolute;
+    right: 9%;
+    top: 2%;
+  
+}
+.nav-wrapper-icon {
+    position: absolute;
+    top: 25%;
+    left: 28%;
+}
+    .desktop__menu-absolute{
+        display: none;
+    }
     .mobile-menu-float{
         display: flex;
         justify-content: space-between;
@@ -54,13 +71,23 @@ padding: 24px;
    .nav__wrapper {
     height: 100vh;
     overflow-y: no-scroll !important;
-    background-color: red;
+    background-color:black;
     transform: translateX(100%);
     position: fixed;
     z-index: 10;
     width: 100%;
     display: flex;
     flex-direction: column;
+     transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+     -o-transition:0.5s;
+}
+.slidein{
+    transform: translateX(0%);
+}
+.lock-scroll {
+    overflow: hidden;
 }
 .nav__wrapper-list{
     align-items: center;
