@@ -79,7 +79,14 @@ padding-left: 8%;
     bottom: 27%;
     right: -35%;
 }
-
+.your-web__list-mobile-container__svg,.a-black-box-mobile{
+  display: none;
+}
+.black-box__below-text{
+    font-size: 10px;
+    text-align: center;
+    padding-right: 5%;
+}
 .your-hardware__container .your-hardware__list-item-text{
   display: flex;
   align-items: center;
@@ -186,6 +193,9 @@ padding-left: 8%;
 }
 
 @media screen and (max-width: 768px) {
+  .your-web__list-mobile-container__svg,.a-black-box-mobile{
+    display: block;
+  }
     .for-developers__svg {
     width: 68%;
     display: flex;
