@@ -96,7 +96,7 @@ padding-left: 8%;
   font-size: 22px;
   letter-spacing: 0.55px;
   line-height: 55px;
-  color: blue;
+  color: #096EF3;
 }
 .your-hardware-bottom-list__container{
   display: flex;
@@ -139,7 +139,7 @@ padding-left: 8%;
   line-height: 37px;
 }
 .tl-dr__list-item span{
-  color: blue;
+  color:#096EF3;
 }
 .tl-dr__list-item{
   padding: 2% 0 2% 0;
@@ -190,7 +190,7 @@ padding-left: 8%;
     list-style: disc;
 }
 .your-web-developer-wrapper__list span{
-    color: blue;
+    color: #096EF3;
 }
 
 @media screen and (max-width: 768px) {

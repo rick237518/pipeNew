@@ -82,7 +82,11 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
+.desktop-pipe {
+    position: absolute;
+    top: 8%;
+    left: 0%;
+}
 
 
 .website-container{
@@ -90,6 +94,7 @@ select {
     background-color: black;
     width: 100%;
     margin: 0 auto;
+    position: relative;
 }
 
 p{
@@ -125,6 +130,9 @@ p{
   padding-right: 10% ;
 
 }
+.what-we-do__text p{
+font-size: 18px;
+}
 #secure-yet-simple__item-svg-third{
   padding-right: 9% !important;
 
@@ -133,12 +141,13 @@ p{
     padding-right: 8.5%;
 }
 .website-container-inner {
-    width: 85%;
+    width: 100%;
+    padding-left: 9%;
     margin: 0 auto;
     overflow: hidden;
 }
 .what-we-do__svg-container{
-  margin-left: 18%;
+  margin-left: 16%;
 }
 .what-we-do,.how-it-works,.secure-yet-simple,.video-section,.you-plus-your-things{
   position: relative;
@@ -155,9 +164,9 @@ p{
     content: '';
     width: 42px;
 }
-.what-we-do__text{
-    margin-left: 21%;
-    padding-right: 4%;
+.what-we-do__text {
+    margin-left: 19%;
+    padding-right: 13%;
     margin-top: -3%;
 }
 .how-it-works__,.-section__iframe{
@@ -177,7 +186,7 @@ p{
 }
 
 .secure-yet-simple__container {
-    padding: 13% 0 10% 20%;
+    padding: 7% 0 10% 20%;
 }
  .our-costs-svg{
     display: none;
@@ -289,8 +298,8 @@ margin-top: 1%;
 .our-cost__container{
   margin: 5% 0 5% 0;
 }
-.how-it-works,.secure-yet-simple,.-section,.you-plus-your-things{
-  margin-top: 18%;
+.how-it-works, .secure-yet-simple, .-section, .you-plus-your-things {
+    margin-top: 8%;
 }
 .thumbs-up__text h4{
   font-size: 28px;
@@ -309,14 +318,14 @@ margin-top: 1%;
 }
 
 .our-cost__item span{
-  color: blue;
+  color: #096EF3;
 }
 
 .how-it-works__video {
     padding: 12% 0 10% 18%;
 }
 .video-section__iframe {
-    padding: 15% 0 10% 19%;
+    padding: 8% 0 10% 19%;
 }
 .video-section{
   margin-top: 15%;
@@ -416,6 +425,29 @@ text-decoration: none;
 
 
 @media screen and (max-width:768px){
+  .desktop-pipe{
+    display: none;
+  }
+  .blog__post-title .second-title {
+    font-size: 40px !important;
+    letter-spacing: 1.08px !important;
+    line-height: 45px !important;
+    text-align: left;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+.footer__list-item a {
+  line-height: 51px;
+}
+.blog__post-title .mini-title {
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    font-size: 13px !important;
+    letter-spacing: 1.32px;
+    color: white;
+}
   .footer__wrapper {
     width: 65%;
     display: flex;
