@@ -188,8 +188,7 @@
     margin-top: -17%;
 }
 .outline-btn__container {
-    padding: 20% 25%;
-
+    padding: 20% 21%;
 }
 
 .for-customers__container {
@@ -323,12 +322,15 @@
 }
 }
 
-@media screen and (max-width: 1400px) and (min-width: 1200px) {
+@media screen and (max-width: 1800px) and (min-width: 1200px) {
     .for-customers__container {
     margin: 18% 0 10% 0;
     padding-bottom: 20%;
 }
-
+.for-customers__explanation {
+    width: 55%;
+    padding-right: 7%;
+}
 
 .Benefits__wrapper {
     display: flex;

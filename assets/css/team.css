@@ -14,7 +14,22 @@
     padding-left: 10%;
     padding-right: 5%;
 }
-
+.we-belive___heading{
+    position: relative;
+}
+.we-belive___heading h1::before {
+    content: '';
+    border-bottom: 10px solid var(--main-button-color);
+    width: 77%;
+    display: block;
+    right: 77%;
+    margin: 0.8rem auto;
+    position: absolute ;
+    top: 13%;
+    transform: rotate( 
+91deg
+ );
+}
 .desktop-only{
     display: block;
 }
@@ -60,10 +75,26 @@
 
 
     @media screen and (max-width:768px){
+        .we-belive___heading h1{
+            font-size: 40px !important;
+        }
         .about-us__svg-container{
             display: flex;
             justify-content: center;
         }
+        .we-belive___heading h1::before {
+    content: '';
+    border-bottom: 10px solid var(--main-button-color);
+    width: 87%;
+    display: block;
+    left: 6%;
+    margin: 0rem auto;
+    position: absolute;
+    top: -28%;
+    transform: rotate( 
+180deg
+ );
+}
         .our__team,.we-believe-blog-container{
             display: flex;
             flex-direction: column;
@@ -126,10 +157,61 @@ font-size: 40px;
     }
 
 
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+ .we-belive___heading h1::before {
+    content: '';
+    border-bottom: 10px solid var(--main-button-color);
+    width: 77%;
+    display: block;
+    right: 77%;
+    margin: 0.8rem auto;
+    position: absolute;
+    top: 13%;
+    transform: rotate( 
+91deg
+ );
+}
+.about-us__svg-container{
+    padding-left: 24%;
+}
+.about-us__svg-mobile {
+    display: block; 
+}
+.about-us__svg-desktop{
+    display: none;
+}
+.we-belive-paragraph {
+    padding-left: 8%;
+}
+.we-belive-paragraph p {
+    font-size: 25px;
+    letter-spacing: 0.93px;
+    line-height: 57px;
+}
+.we-belive___heading{
+    position: relative;
+}
+
+}
 
 
-   @media screen and (max-width: 1400px) and (min-width: 1200px) {
-
+   @media screen and (max-width: 1800px) and (min-width: 1200px) {
+   .we-belive___heading h1::before {
+    content: '';
+    border-bottom: 10px solid var(--main-button-color);
+    width: 77%;
+    display: block;
+    right: 77%;
+    margin: 0.8rem auto;
+    position: absolute;
+    top: 13%;
+    transform: rotate( 
+91deg
+ );
+}
+.we-belive___heading{
+    position: relative;
+}
    .text__container-members{
        font-size: 18px;
    }
@@ -140,13 +222,38 @@ font-size: 40px;
 .about-us__svg-container svg{
     width: 1000px;
 }
+.our__image-relative, .text__container-about {
+    position: relative;
+    padding-bottom: 7%;
+}
+.text__container-members {
+    margin-top: -15%;
+    display: flex;
+    position: relative;
+}
+.nav__wrapper-list li a {
+    text-decoration: none;
+    font-size: 12px !important;
+    letter-spacing: 0.76px;
+    line-height: 24px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: Bold;
+}
+.we-belive-paragraph {
+    padding-left: 7%;
+    padding-bottom: 10%;
+    padding-right: 14%;
+}
 .we-belive-paragraph p {
     font-size: 20px;
     letter-spacing: 0.93px;
     line-height: 49px;
 }
 .website-container-inner {
-    width: 88%;
+    width: 100%;
+    padding-left: 12%;
     margin: 0 auto;
     overflow: hidden;
 }

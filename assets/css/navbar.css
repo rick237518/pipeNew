@@ -46,6 +46,9 @@ padding: 24px;
     .desktop-logo{
         display: block;
     }
+    .nav__wrapper-list{
+        margin-bottom: 15%;
+    }
     .closebtn {
     position: absolute;
     right: 9%;
@@ -57,8 +60,15 @@ padding: 24px;
 }
 .nav-wrapper-icon {
     position: absolute;
-    top: 25%;
-    left: 28%;
+    top: 16%;
+    left: 23%;
+}
+.nav__wrapper-list{
+    margin-bottom: 14% !important;
+}
+.nav__wrapper-list li {
+    display: inline-block;
+    padding: 19px;
 }
     .desktop__menu-absolute{
         display: none;

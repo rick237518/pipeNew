@@ -82,6 +82,7 @@ padding-left: 8%;
 .your-web__list-mobile-container__svg,.a-black-box-mobile{
   display: none;
 }
+
 .black-box__below-text{
     font-size: 10px;
     text-align: center;
@@ -409,9 +410,11 @@ left: 0;
 
 }
 
-@media screen and (max-width: 1400px) and  (min-width: 1200px) {
+@media screen and (max-width: 1800px) and  (min-width: 1200px) {
   
-
+.your-hardware__container{
+  padding-right: 10% !important;
+}
 .your-web-developer-wrapper__svg-absolute{
   display: none;
 }
@@ -491,7 +494,7 @@ left: 0;
 .a-black-box-svg__bottom-left {
     position: absolute;
     bottom: 11%;
-    right: 8%;
+    right: 12%;
 }
 .tl-dr__list-item p {
     line-height: 23px;
